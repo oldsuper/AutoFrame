@@ -1,0 +1,171 @@
+2016-02-22 17:15:11,483 - main - debug - DEBUG - case_2
+2016-02-22 17:15:11,486 - main - debug - DEBUG - s_topic_like_2
+2016-02-22 17:15:11,486 - main - debug - DEBUG - {u'game_id': u'5424', u'topic_id': 37598, u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFfyIU0uxOtYXvMOTu2snwLw'}
+2016-02-22 17:15:11,486 - main - debug - DEBUG - /2/game/topic/like/delete
+2016-02-22 17:15:11,486 - main - debug - DEBUG - POST
+2016-02-22 17:15:11,487 - main - debug - DEBUG - {u'game_id': u'5424', u'topic_id': 37598, u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFfyIU0uxOtYXvMOTu2snwLw'}
+2016-02-22 17:15:11,513 - main - debug - DEBUG - main response..
+2016-02-22 17:15:11,513 - main - debug - DEBUG - {"topic_id":37598}
+2016-02-22 17:15:11,513 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:11,513 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:11,513 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:11,515 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:11,515 - main - debug - DEBUG - s_topic_like_2
+2016-02-22 17:15:11,515 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:11,515 - main - debug - DEBUG - end
+2016-02-22 17:15:11,515 - main - debug - DEBUG - ++++++s_topic_replay_1++++++begin
+2016-02-22 17:15:11,515 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:11,516 - main - debug - DEBUG - case_1
+2016-02-22 17:15:11,516 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:11,516 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:11,516 - main - debug - DEBUG - /2/user/account/login_by_phone
+2016-02-22 17:15:11,516 - main - debug - DEBUG - POST
+2016-02-22 17:15:11,516 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:11,548 - main - debug - DEBUG - main response..
+2016-02-22 17:15:11,548 - main - debug - DEBUG - {"user_id":400125887,"username":"ID400125887","nickname":"啊啊","login_user_id":"","head_url":"","email":"","city":"","gender":1,"birthday":"","topic_count":54,"image_count":0,"reply_count":1,"be_liked_count":16,"favorite_count":0,"video_waiting_count":0,"role":0,"email_active":-1,"description":"","require_nickname":0,"require_username":1,"phone_regioncode":"86","phone_number":"13112341234","age":0,"new_registered":0,"topic_follow_count":55,"platform_login_code":"HRfL5oE2zmI1raZriVgsjqrgVjBcEJOuhn4pAYrdkioMtFZBm9TtQU3Zh4DcIvhvNCvsV4QIzTkUFi4WG3l26yB3hyJBu_m-4mwYlRiJDA4","password":1,"sns_list":{},"friends":{"limit":200,"count":0,"total":0},"user_token":"EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w"}
+2016-02-22 17:15:11,549 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:11,549 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:11,549 - main - debug - DEBUG - {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}
+2016-02-22 17:15:11,549 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:11,549 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:11,549 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:11,549 - main - debug - DEBUG - 2500087
+2016-02-22 17:15:11,549 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:11,549 - main - debug - DEBUG - case_2
+2016-02-22 17:15:11,549 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:11,551 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w'}
+2016-02-22 17:15:11,551 - main - debug - DEBUG - /2/chat/user/active
+2016-02-22 17:15:11,551 - main - debug - DEBUG - POST
+2016-02-22 17:15:11,551 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w'}
+2016-02-22 17:15:11,559 - main - debug - DEBUG - main response..
+2016-02-22 17:15:11,559 - main - debug - DEBUG - {"game_id":5424}
+2016-02-22 17:15:11,561 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:11,561 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:11,561 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:11,561 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:11,561 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:11,562 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:11,562 - main - debug - DEBUG - 2500077
+2016-02-22 17:15:11,562 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:11,562 - main - debug - DEBUG - case_1
+2016-02-22 17:15:11,562 - main - debug - DEBUG - s_topic_create_1
+2016-02-22 17:15:11,562 - main - debug - DEBUG - {u'category': '0', u'game_id': u'5424', u'content': u'$CREATETIMESTAMP()AutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContent1456132499.191456132511.56', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w', u'title': u'AutoTestTitle'}
+2016-02-22 17:15:11,562 - main - debug - DEBUG - /2/game/topic/create
+2016-02-22 17:15:11,562 - main - debug - DEBUG - POST
+2016-02-22 17:15:11,562 - main - debug - DEBUG - {u'category': '0', u'game_id': u'5424', u'content': u'$CREATETIMESTAMP()AutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContent1456132499.191456132511.56', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w', u'title': u'AutoTestTitle'}
+2016-02-22 17:15:11,588 - main - debug - DEBUG - main response..
+2016-02-22 17:15:11,588 - main - debug - DEBUG - {"topic_id":37599}
+2016-02-22 17:15:11,588 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:11,588 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:11,588 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:11,588 - main - debug - DEBUG - time.sleep(6)
+2016-02-22 17:15:17,588 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:17,588 - main - debug - DEBUG - $$s_topic_create_1.case_1.res['topic_id']
+2016-02-22 17:15:17,588 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:17,588 - main - debug - DEBUG - 2497535
+2016-02-22 17:15:17,589 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:17,589 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:17,589 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:17,589 - main - debug - DEBUG - 2497535
+2016-02-22 17:15:17,589 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,591 - main - debug - DEBUG - case_1
+2016-02-22 17:15:17,591 - main - debug - DEBUG - s_topic_replay_1
+2016-02-22 17:15:17,591 - main - debug - DEBUG - {u'content': u's_topic_replay_1\ns_topic_replay_1', u'game_id': u'5424', u'topic_id': 37599, u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w'}
+2016-02-22 17:15:17,591 - main - debug - DEBUG - /2/topic/reply/create
+2016-02-22 17:15:17,591 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,591 - main - debug - DEBUG - {u'content': u's_topic_replay_1\ns_topic_replay_1', u'game_id': u'5424', u'topic_id': 37599, u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJF94cXGGYHlzM7RlDbFED87w'}
+2016-02-22 17:15:17,601 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,601 - main - debug - DEBUG - {"http_status":"200","error_code":150106,"error":"请勿重复发布相同内容","requestUrl":"/2/topic/reply/create"}
+2016-02-22 17:15:17,602 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,602 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,602 - main - debug - DEBUG - {'status': False, 'errormsg': 'Find Error Keys', 'errorType': <type 'exceptions.KeyError'>}
+2016-02-22 17:15:17,602 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:17,602 - main - debug - DEBUG - s_topic_replay_1
+2016-02-22 17:15:17,604 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:17,604 - main - debug - DEBUG - end
+2016-02-22 17:15:17,604 - main - debug - DEBUG - ++++++s_uc_login_1++++++begin
+2016-02-22 17:15:17,604 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,604 - main - debug - DEBUG - case_1
+2016-02-22 17:15:17,604 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:17,605 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:17,605 - main - debug - DEBUG - /2/user/account/login_by_phone
+2016-02-22 17:15:17,605 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,605 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:17,630 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,630 - main - debug - DEBUG - {"user_id":400125887,"username":"ID400125887","nickname":"啊啊","login_user_id":"","head_url":"","email":"","city":"","gender":1,"birthday":"","topic_count":55,"image_count":0,"reply_count":1,"be_liked_count":16,"favorite_count":0,"video_waiting_count":0,"role":0,"email_active":-1,"description":"","require_nickname":0,"require_username":1,"phone_regioncode":"86","phone_number":"13112341234","age":0,"new_registered":0,"topic_follow_count":56,"platform_login_code":"HRfL5oE2zmI1raZriVgsjqrgVjBcEJOuhn4pAYrdkipWuCqym5nwdRY6fd5ikm7b3i49oMYWls7-nyyyzYHd1FMCEFN9TvUoZGy1dm3ZVrI","password":1,"sns_list":{},"friends":{"limit":200,"count":0,"total":0},"user_token":"EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg"}
+2016-02-22 17:15:17,631 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,631 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,631 - main - debug - DEBUG - {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}
+2016-02-22 17:15:17,631 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:17,631 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:17,631 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:17,631 - main - debug - DEBUG - 2500047
+2016-02-22 17:15:17,631 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,631 - main - debug - DEBUG - case_2
+2016-02-22 17:15:17,631 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:17,631 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,632 - main - debug - DEBUG - /2/chat/user/active
+2016-02-22 17:15:17,632 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,632 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,641 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,641 - main - debug - DEBUG - {"game_id":5424}
+2016-02-22 17:15:17,641 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,641 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,641 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:17,641 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:17,642 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:17,642 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:17,642 - main - debug - DEBUG - end
+2016-02-22 17:15:17,642 - main - debug - DEBUG - ++++++s_topic_create_1++++++begin
+2016-02-22 17:15:17,642 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,642 - main - debug - DEBUG - case_1
+2016-02-22 17:15:17,644 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:17,644 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:17,644 - main - debug - DEBUG - /2/user/account/login_by_phone
+2016-02-22 17:15:17,644 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,644 - main - debug - DEBUG - {u'phone_regioncode': '86', u'game_id': u'5424', u'password': u'qqqqqqqq', u'phone_number': u'13112341234', u'sign': u'43069b18cd89d4b3b9dcbfe378b79970'}
+2016-02-22 17:15:17,684 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,686 - main - debug - DEBUG - {"user_id":400125887,"username":"ID400125887","nickname":"啊啊","login_user_id":"","head_url":"","email":"","city":"","gender":1,"birthday":"","topic_count":55,"image_count":0,"reply_count":1,"be_liked_count":16,"favorite_count":0,"video_waiting_count":0,"role":0,"email_active":-1,"description":"","require_nickname":0,"require_username":1,"phone_regioncode":"86","phone_number":"13112341234","age":0,"new_registered":0,"topic_follow_count":56,"platform_login_code":"HRfL5oE2zmI1raZriVgsjqrgVjBcEJOuhn4pAYrdkipWuCqym5nwdRY6fd5ikm7b3i49oMYWls7-nyyyzYHd1FMCEFN9TvUoZGy1dm3ZVrI","password":1,"sns_list":{},"friends":{"limit":200,"count":0,"total":0},"user_token":"EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg"}
+2016-02-22 17:15:17,686 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,686 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,686 - main - debug - DEBUG - {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}
+2016-02-22 17:15:17,687 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:17,687 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:17,687 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:17,687 - main - debug - DEBUG - 2500067
+2016-02-22 17:15:17,687 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,687 - main - debug - DEBUG - case_2
+2016-02-22 17:15:17,687 - main - debug - DEBUG - s_uc_login_1
+2016-02-22 17:15:17,687 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,687 - main - debug - DEBUG - /2/chat/user/active
+2016-02-22 17:15:17,687 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,687 - main - debug - DEBUG - {u'game_id': u'5424', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,697 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,697 - main - debug - DEBUG - {"game_id":5424}
+2016-02-22 17:15:17,697 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,697 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,697 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:17,697 - main - debug - DEBUG - debug main 
+2016-02-22 17:15:17,697 - main - debug - DEBUG - $$s_uc_login_1.case_1.res['user_token']
+2016-02-22 17:15:17,697 - main - debug - DEBUG - main ...................... update 
+2016-02-22 17:15:17,698 - main - debug - DEBUG - 2476769
+2016-02-22 17:15:17,698 - main - debug - DEBUG - main param.....
+2016-02-22 17:15:17,698 - main - debug - DEBUG - case_1
+2016-02-22 17:15:17,698 - main - debug - DEBUG - s_topic_create_1
+2016-02-22 17:15:17,698 - main - debug - DEBUG - {u'category': '0', u'game_id': u'5424', u'title': u'AutoTestTitle', u'content': u'$CREATETIMESTAMP()AutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContent1456132499.191456132517.7', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,698 - main - debug - DEBUG - /2/game/topic/create
+2016-02-22 17:15:17,700 - main - debug - DEBUG - POST
+2016-02-22 17:15:17,700 - main - debug - DEBUG - {u'category': '0', u'game_id': u'5424', u'title': u'AutoTestTitle', u'content': u'$CREATETIMESTAMP()AutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContentAutoTestContent1456132499.191456132517.7', u'user_token': 'EybBDAeXvYtuizJq-WICXkmS8Aja9pjlf8gmQHn569K46OvV9kA93vUpy_ukgmJFyNTI6wan-M7xGG3usL3zxg'}
+2016-02-22 17:15:17,726 - main - debug - DEBUG - main response..
+2016-02-22 17:15:17,727 - main - debug - DEBUG - {"topic_id":37600}
+2016-02-22 17:15:17,727 - main - debug - DEBUG - assert main begin
+2016-02-22 17:15:17,727 - main - debug - DEBUG - main assertobj...
+2016-02-22 17:15:17,727 - main - debug - DEBUG - {'status': True, 'errormsg': '', 'errorType': None}
+2016-02-22 17:15:17,727 - main - debug - DEBUG - time.sleep(6)
+2016-02-22 17:15:23,730 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:23,730 - main - debug - DEBUG - s_topic_create_1
+2016-02-22 17:15:23,730 - main - debug - DEBUG - ++++++
+2016-02-22 17:15:23,730 - main - debug - DEBUG - end
+2016-02-22 17:15:23,730 - main - debug - DEBUG - {u's_topic_like_1': {'status': True, 'detail': {(u'case_1', u's_uc_login_1'): {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}, (u'case_2', u's_uc_login_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_like_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_create_1'): {'status': True, 'errormsg': '', 'errorType': None}}}, u's_topic_like_2': {'status': True, 'detail': {(u'case_1', u's_uc_login_1'): {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}, (u'case_2', u's_uc_login_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_2', u's_topic_like_2'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_like_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_create_1'): {'status': True, 'errormsg': '', 'errorType': None}}}, u's_topic_replay_1': {'status': False, 'cost': 6.0879998207092285, 'detail': {(u'case_1', u's_topic_replay_1'): {'status': False, 'errormsg': 'Find Error Keys', 'errorType': <type 'exceptions.KeyError'>}, (u'case_1', u's_uc_login_1'): {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}, (u'case_2', u's_uc_login_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_create_1'): {'status': True, 'errormsg': '', 'errorType': None}}}, u's_uc_login_1': {'status': True, 'detail': {(u'case_1', u's_uc_login_1'): {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}, (u'case_2', u's_uc_login_1'): {'status': True, 'errormsg': '', 'errorType': None}}}, u's_topic_create_1': {'status': True, 'detail': {(u'case_1', u's_uc_login_1'): {'status': True, 'errormsg': 'No AssertObj', 'errorType': None}, (u'case_2', u's_uc_login_1'): {'status': True, 'errormsg': '', 'errorType': None}, (u'case_1', u's_topic_create_1'): {'status': True, 'errormsg': '', 'errorType': None}}}}
+2016-02-22 17:15:23,730 - main - debug - DEBUG - dump report file begin
+2016-02-22 17:15:23,733 - main - debug - DEBUG - dump report file end

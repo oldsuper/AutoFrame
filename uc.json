@@ -1,0 +1,31 @@
+{
+	"suite":"login",
+	"cases":[
+		{"case_1":
+			{
+			"url":"http://{{host}}/2/user/account/login_by_phone",
+			"method":"POST",
+			"para":[
+				("game_id","102793","int"),
+				("phone_regioncode","86","int"),
+				("phone_number","13811398758","str"),
+				("password","qqqqqqqq","str"),
+				("sign","43069b18cd89d4b3b9dcbfe378b79970","int")
+				],
+			"assert":[],
+			"sequence":0
+			}
+		},
+		{"case_2":{
+			"url":"http://{{host}}/2/chat/user/active",
+			"method":"POST",
+			"para":[
+				("game_id","102793","int"),
+				("user_token","@@case_1.res['user_token']","str")
+				],
+			"assert":[{"expression":"case_2['game_id']==case_2['game_id']"}],
+			"sequence":1
+			}
+		}
+	]
+}
